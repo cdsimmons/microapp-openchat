@@ -1,0 +1,63 @@
+/* Globals */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #92a8d1;
+  font-family: Calibri, Helvetica, Arial;
+  background-color: #f7cac9;
+  font-size: 20px;
+}
+
+/* Grid */
+.wrapper {
+  width: 240px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.row {
+  clear: left;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+}
+
+.column {
+  width: 100%;
+}
+
+.column--icon {
+  min-width: 30px;
+  width: 30px;
+  font-weight: bold;
+}
+
+/* Form */
+input {
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+/* Icons */
+.icon {
+  display: inline-block;
+  height: 0.9em;
+}
+
+.icon--people {
+
+}
+
+/* Calculator */
+.sender {
+  margin-top: 40px;
+}

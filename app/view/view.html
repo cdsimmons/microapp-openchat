@@ -1,0 +1,15 @@
+
+<div class="messenger">
+	<h2>{{user.name}}</h2>
+	<div class="messages" ng-repeat="message in messages">
+		<div class="messages__message">
+			<span class="messages__name">{{message.user.name}}: </span>
+			<span class="messages__body">{{message.body}}</span>
+		</div>
+	</div>
+	<div class="sender">
+		<form ng-submit="send()">
+			<input type="text" ng-model="message" name="message" autocomplete="off"/>
+		</form>
+	</div>
+</div>
